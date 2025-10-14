@@ -25,9 +25,9 @@ function showSlides() {
         slides[slideIndex - 1].style.display = 'block';
     }
     
-    // Chama a função novamente após 4 segundos (4000 milissegundos)
+    // Chama a função novamente após 3 segundos (3000 milissegundos)
     // Isso cria a transição automática
-    setTimeout(showSlides, 4000); 
+    setTimeout(showSlides, 3000); 
 }
 
 // Inicia a função showSlides quando todo o HTML é carregado
