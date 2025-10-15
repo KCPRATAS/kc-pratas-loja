@@ -74,10 +74,10 @@ h2 {
 /* BANNER DE DESTAQUE (CARROSSEL) */
 .banner-destaque {
     position: relative;
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1500px;
+    margin: 10px auto;
     overflow: hidden;
-    height: 400px; /* Altura fixa para o carrossel */
+    height: 450px; /* Altura fixa para o carrossel */
     margin-top: 250px;
 }
 
