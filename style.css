@@ -169,9 +169,12 @@ a:hover {
 }
 
 .filtros-categoria h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1000px;
     font-size: 1.5em;
-    color: #555;
+    color: #e70c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .botoes-filtros {
@@ -203,6 +206,32 @@ a:hover {
     background-color: #333; 
     color: white; 
     border-color: #333;
+}
+
+/* ESTILO PARA CENTRALIZAR O NOME DAS COLEÇÕES NO MEIO DOS PRODUTOS */
+.titulo-colecao {
+    grid-column: 1 / -1;
+    width: 100%;               /* Força o título a ocupar a largura toda */
+    text-align: center;        /* Centraliza o texto */
+    margin: 40px 0 20px 0;     /* Espaço grande em cima e menor embaixo */
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; /* Deixa em maiúsculo para um ar mais sério */
+    letter-spacing: 4px;       /* Espaçamento chique entre as letras */
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-colecao::before,
+.titulo-colecao::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 20px;
 }
 
 /* =================================== */
